@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 "Kode mono" "sans-serif";
+}
+
+body,
+input,
+button,
+textarea {
+    font: inherit;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+form{
+    background-color: white;
+    max-width: 30%;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 3em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset{
+    padding: 3em;
+    border-radius: 0.7em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+legend{
+    background-color: rgb(54, 79, 79);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+.wraper{
+    display: flex;
+    gap: 1em;
+}
+
+.results{
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3em;
+}
+.result,
+.back{
+    color: white;
+
+}
