@@ -1,0 +1,49 @@
+# See also the screenshot
+
+GET /
+Host: localhost:3000
+
+# HTTP/1.1 200 OK
+# Content-Type: text/html; charset=UTF-8
+###
+
+GET /index.js
+Host: localhost:3000
+
+# HTTP/1.1 200 OK
+# Content-Type: application/javascript; charset=UTF-8
+###
+
+GET /styles.css
+Host: localhost:3000
+
+# HTTP/1.1 200 OK
+# Content-Type: text/css; charset=UTF-8
+###
+
+
+GET /favicon.ico
+Host: localhost:3000
+
+# HTTP/1.1 200 OK
+# Content-Type: image/x-icon
+###
+
+POST /celsius
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "F": 75
+}
+
+# HTTP/1.1 200 OK
+# Content-Type: application/json; charset=utf-8
+# 
+# {
+#   "C": 23.88888888888889
+# }
+################################################
+#
+# Formula: C = (5/9)*(F-32)
+#
